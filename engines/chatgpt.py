@@ -10,7 +10,8 @@ class ChatgptTranslate(Base):
     name = 'ChatGPT'
     alias = 'ChatGPT'
     support_lang = 'google.json'
-    endpoint = 'https://api.openai.com/v1/chat/completions'
+    # endpoint = 'https://api.openai.com/v1/chat/completions'
+    endpoint = 'https://api.openai-sb.com/v1/chat/completions'
     # api_key_hint = 'sk-xxx...xxx'
 
     default_prompts = {
